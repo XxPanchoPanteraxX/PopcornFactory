@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_top_login">20dp</dimen>
+    <dimen name="menu_list_margins">20dp</dimen>
+    <dimen name="menu_buttons_padding">20dp</dimen>
+    <dimen name="menu_buttons_margin">2dp</dimen>
+    <dimen name="menu_buttons_textsize">15sp</dimen>
+    <dimen name="menu_buttons_padding_v">15dp</dimen>
+</resources>

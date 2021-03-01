@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ColdDrinksActivity">
+
+    <ImageView
+        android:id="@+id/ivPortada"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/grupo_2"/>
+
+    <TextView
+        android:id="@+id/tvOurMenu"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/our_menu"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+    <GridLayout
+        android:id="@+id/glMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="25dp">
+
+        <Button
+            android:id="@+id/btnColdDrinks"
+            android:text="@string/cold_drinks"
+            android:textColor="@color/dustyWhite"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_padding"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:layout_marginBottom="@dimen/menu_buttons_margin"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/menu_buttons_textsize"
+            android:paddingVertical="@dimen/menu_buttons_padding_v"/>
+
+        <Button
+            android:id="@+id/btnHotDrinks"
+            android:text="@string/hot_drinks"
+            android:textColor="@color/dustyWhite"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_padding"
+            android:layout_marginLeft="@dimen/menu_buttons_margin"
+            android:layout_marginBottom="@dimen/menu_buttons_margin"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/menu_buttons_textsize"
+            android:paddingVertical="@dimen/menu_buttons_padding_v"/>
+
+        <Button
+            android:id="@+id/btnSweets"
+            android:text="@string/sweets"
+            android:textColor="@color/dustyWhite"
+            android:background="@drawable/second_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_padding"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:layout_marginTop="@dimen/menu_buttons_margin"
+            android:layout_marginBottom="@dimen/menu_buttons_margin"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/menu_buttons_textsize"
+            android:paddingVertical="@dimen/menu_buttons_padding_v"/>
+
+        <Button
+            android:id="@+id/btnSalties"
+            android:text="@string/salties"
+            android:textColor="@color/dustyWhite"
+            android:background="@drawable/second_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_padding"
+            android:layout_marginLeft="@dimen/menu_buttons_margin"
+            android:layout_marginTop="@dimen/menu_buttons_margin"
+            android:layout_marginBottom="@dimen/menu_buttons_margin"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/menu_buttons_textsize"
+            android:paddingVertical="@dimen/menu_buttons_padding_v"/>
+
+        <Button
+            android:id="@+id/btnCombos"
+            android:text="@string/combos"
+            android:textColor="@color/dustyWhite"
+            android:background="@drawable/third_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_padding"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:layout_marginTop="@dimen/menu_buttons_margin"
+            android:layout_marginBottom="@dimen/menu_buttons_margin"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/menu_buttons_textsize"
+            android:paddingVertical="@dimen/menu_buttons_padding_v"/>
+
+        <Button
+            android:id="@+id/btnCustomizable"
+            android:text="@string/custom"
+            android:textColor="@color/dustyWhite"
+            android:background="@drawable/third_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_padding"
+            android:layout_marginLeft="@dimen/menu_buttons_margin"
+            android:layout_marginTop="@dimen/menu_buttons_margin"
+            android:layout_marginBottom="@dimen/menu_buttons_margin"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/menu_buttons_textsize"
+            android:paddingVertical="@dimen/menu_buttons_padding_v"/>
+    </GridLayout>
+</LinearLayout>
